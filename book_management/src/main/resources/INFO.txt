@@ -1,0 +1,7 @@
+Program was made a bit different as it should because of the knowledge lack in spring boot tool.
+Logic seems to be working, all the endpoints have their functions and route, for example starting route is /books to find book
+we use /books/find/**/**/ and specify parameters of the search. A little web service was made with some twist user can login and only then take books
+limit is 3 books and 60 days taking period. Deleting books I kept only from main db, users who took book remain in their lists as it should, I suppose.
+Did not have time to make filters, had issues with JSON so kept everything local would use db if needed, used JPA storing to access books, for User made more of a creative repository.
+Was tempted to use thymeleaf for some tables views etc. but lacked knowledge and time to learn and use. All in all learned about spring endpoints,
+will go forward from this and try to use thymeleaf, bootstrap. It was my first spring project, earlier used spring only for maven dependencies for non spring projects.
